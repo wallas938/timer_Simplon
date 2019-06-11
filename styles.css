@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'digital font';
+  src: url(digital-7/digital-7.ttf);
+}
+
+#timer-minute, #break-minute, .digit {
+  font-family: 'digital font';
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.config-conteneur {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-conteur-horizontal-gauche {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.flex-conteur-horizontal-droit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.conteneur-bouton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+}
+
+#conteneur-bouton-gauche {
+  margin-right: 50px
+}
+
+#conteneur-bouton-droit {
+  margin-left: 50px
+}
+
+.input-utilisateur {
+  font-size: 3rem;
+  position: relative;
+  text-align: end;
+}
+
+.mini-digit {}
+
+#timer-minute {
+  bottom: 110px;
+  right: 80px;
+}
+
+#break-minute {
+  bottom: 110px;
+  right: 250px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#timer {
+  text-align: center;
+}
+
+button {
+  width: 140px;
+}
+
+#timer-afficheur {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#timer {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.digit {
+  font-size: 8rem;
+  margin: 0 35px;
+  display: inline-block;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #CCC;
+}
+
+#separateur {
+  width: 180px;
+  height: 280px;
+  padding-top: 45px;
+}
+
+#play-pause-conteneur {
+  text-align: center;
+  margin-top: 50px;
+}
